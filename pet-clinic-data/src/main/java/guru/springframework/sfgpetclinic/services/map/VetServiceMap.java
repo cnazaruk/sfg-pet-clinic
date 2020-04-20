@@ -25,8 +25,8 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetS
     }
 
     @Override
-    public void delete(Vet Vet) {
-        super.delete(Vet);
+    public void delete(Vet vet) {
+        super.delete(vet);
     }
 
     @Override
